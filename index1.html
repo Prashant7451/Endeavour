@@ -16,6 +16,12 @@
 	<link rel="stylesheet" type="text/css" href="inner-page-style.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+	<script>
+	function logout(){
+    location.href = "index.html";
+    alert("Logout Succesfully");
+}
+	</script>
 </head>
 
 <body>
@@ -36,7 +42,7 @@
 					<div class="top-header-right">
 
 						<div class="Logout">
-							<a href="">Logout </a>
+							<a href="" onclick="logout()">Logout </a>
 
 						</div>
 					</div>
@@ -52,33 +58,33 @@
 					<div class="nav-wrap">
 						<nav class="nav-desktop">
 							<ul class="menu-list">
-
+								<li><a href="index1.html">Home</a></li>
 								<li class="menu-parent">Raahis
 									<ul class="sub-menu">
-										<li><a href="#">Delhi</a></li>
-										<li><a href="#">Rishikesh</a></li>
-										<li><a href="#">Agra</a></li>
+										<li><a href="Delhi.html">Delhi</a></li>
+										<li><a href="rishrikesh.html">Rishikesh</a></li>
+										<li><a href="agra.html">Agra</a></li>
 									</ul>
 								</li>
 								<li class="menu-parent">Destinations
 									<ul class="sub-menu">
-										<li><a href="#">Delhi</a></li>
-										<li><a href="#">Rishikesh</a></li>
-										<li><a href="">Agra</a>
+										<li><a href="desDelhi.html">Delhi</a></li>
+										<li><a href="desRishikesh.html">Rishikesh</a></li>
+										<li><a href="desAgra.html">Agra</a>
 
 									</ul>
 								</li>
 								<li class="menu-parent">Blogs
 									<ul class="sub-menu">
-										<li><a href="#">Delhi</a></li>
-										<li><a href="#">Rishikesh</a></li>
-										<li><a href="#">Agra</a></li>
+										<li><a href="" >Delhi</a></li>
+										<li><a href="">Rishikesh</a></li>
+										<li><a href="">Agra</a></li>
 									</ul>
 								</li>
-								<li><a href="">Gallery</a></li>
-								<li><a href="">About</a></li>
+								<li><a href="#gallery">Gallery</a></li>
+								<li><a href="#whyus">About</a></li>
 
-
+							
 							</ul>
 						</nav>
 						<div id="bar">
@@ -107,7 +113,7 @@
 			<div id="owl-four-nav" class="owl-nav"></div>
 		</div>
 
-		<section class="whyUs-section">
+		<section class="whyUs-section" id="whyus">
 			<div class="container">
 				<div class="featured-points">
 					<ul>
@@ -117,7 +123,7 @@
 
 					</ul>
 				</div>
-				<div class="whyus-wrap">
+				<div class="whyus-wrap" >
 					<h1>why us?</h1>
 					<p itemprop="description">It’s our privilege to help you out with a step towards simplicity.
 
@@ -132,82 +138,82 @@
 			</div>
 		</section>
 		<!-- Closed WhyUs section -->
-		<section class="page-heading">
+		<section class="page-heading" id="gallery">
 			<div class="container">
 				<h2>gallery</h2>
 			</div>
 		</section>
 		<section class="gallery-images-section" itemprop="image" itemscope itemtype=" http://schema.org/ImageGallery">
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img1.jpg" data-lightbox="example-set"
+				<a href="images/delhi 3.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img1.jpg" alt="gallery-images">
+					<img src="images/delhi 3.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img2.jpg" data-lightbox="example-set"
+				<a href="images/delhi 2.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img2.jpg" alt="gallery-images">
+					<img src="images/delhi 2.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img3.jpg" data-lightbox="example-set"
+				<a href="images/delhi 1.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img3.jpg" alt="gallery-images">
+					<img src="images/delhi 1.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img4.jpg" data-lightbox="example-set"
+				<a href="images/delhi 4.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img4.jpg" alt="gallery-images">
+					<img src="images/delhi 4.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img5.jpg" data-lightbox="example-set"
+				<a href="images/rishikesh 1.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img5.jpg" alt="gallery-images">
+					<img src="images/rishikesh 1.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img6.jpg" data-lightbox="example-set"
+				<a href="images/rishikesh 2.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img6.jpg" alt="gallery-images">
+					<img src="images/rishikesh 2.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img7.jpg" data-lightbox="example-set"
+				<a href="images/rishikesh 3.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img7.jpg" alt="gallery-images">
+					<img src="images/rishikesh 3.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img8.jpg" data-lightbox="example-set"
+				<a href="images/rishikesh 4.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img8.jpg" alt="gallery-images">
+					<img src="images/rishikesh 4.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img9.jpg" data-lightbox="example-set"
+				<a href="images/gallery_5.jpeg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img9.jpg" alt="gallery-images">
+					<img src="images/gallery_5.jpeg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img10.jpg" data-lightbox="example-set"
+				<a href="images/taj mahal (1).jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img10.jpg" alt="gallery-images">
+					<img src="images/taj mahal (1).jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img11.jpg" data-lightbox="example-set"
+				<a href="images/soami bagh.jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img11.jpg" alt="gallery-images">
+					<img src="images/soami bagh.jpg" alt="gallery-images">
 				</a>
 			</div>
 			<div class="gallery-img-wrap">
-				<a href="images/gallery-img12.jpg" data-lightbox="example-set"
+				<a href="images/sikandara agra (1).jpg" data-lightbox="example-set"
 					data-title="Click the right half of the image to move forward.">
-					<img src="images/gallery-img12.jpg" alt="gallery-images">
+					<img src="images/sikandara agra (1).jpg" alt="gallery-images">
 				</a>
 			</div>
 		</section>
